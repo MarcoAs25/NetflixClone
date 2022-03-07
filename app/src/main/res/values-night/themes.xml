@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NetflixClone" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#A01B16</item>
+        <item name="colorPrimaryVariant">#9F1A09</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground" tools:targetApi="l">?attr/colorOnPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor" tools:targetApi="l">@android:color/white</item>
+        <item name="android:seekBarStyle" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <item name="android:progressBackgroundTint" tools:targetApi="l">@android:color/darker_gray</item>
+        <item name="android:thumbTint" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:progressTint" tools:targetApi="l">?attr/colorPrimary</item>
+    </style>
+</resources>
